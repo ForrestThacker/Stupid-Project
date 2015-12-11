@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33864A361C1B596200DAC2BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33864A351C1B596200DAC2BE /* main.m */; };
+		33864A391C1B596200DAC2BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33864A381C1B596200DAC2BE /* AppDelegate.m */; };
+		33864A3C1C1B596200DAC2BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33864A3B1C1B596200DAC2BE /* ViewController.m */; };
+		33864A3F1C1B596200DAC2BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33864A3D1C1B596200DAC2BE /* Main.storyboard */; };
+		33864A411C1B596200DAC2BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33864A401C1B596200DAC2BE /* Assets.xcassets */; };
+		33864A441C1B596200DAC2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33864A421C1B596200DAC2BE /* LaunchScreen.storyboard */; };
+		33864A4F1C1B596200DAC2BE /* Stupid_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33864A4E1C1B596200DAC2BE /* Stupid_ProjectTests.m */; };
+		33864A5A1C1B596200DAC2BE /* Stupid_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33864A591C1B596200DAC2BE /* Stupid_ProjectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33864A4B1C1B596200DAC2BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33864A291C1B596200DAC2BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33864A301C1B596200DAC2BE;
+			remoteInfo = "Stupid Project";
+		};
+		33864A561C1B596200DAC2BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33864A291C1B596200DAC2BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33864A301C1B596200DAC2BE;
+			remoteInfo = "Stupid Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33864A311C1B596200DAC2BE /* Stupid Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stupid Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33864A351C1B596200DAC2BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33864A371C1B596200DAC2BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33864A381C1B596200DAC2BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33864A3A1C1B596200DAC2BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33864A3B1C1B596200DAC2BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33864A3E1C1B596200DAC2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33864A401C1B596200DAC2BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33864A431C1B596200DAC2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33864A451C1B596200DAC2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33864A4A1C1B596200DAC2BE /* Stupid ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stupid ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33864A4E1C1B596200DAC2BE /* Stupid_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stupid_ProjectTests.m; sourceTree = "<group>"; };
+		33864A501C1B596200DAC2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33864A551C1B596200DAC2BE /* Stupid ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stupid ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33864A591C1B596200DAC2BE /* Stupid_ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stupid_ProjectUITests.m; sourceTree = "<group>"; };
+		33864A5B1C1B596200DAC2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33864A2E1C1B596200DAC2BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33864A471C1B596200DAC2BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33864A521C1B596200DAC2BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33864A281C1B596200DAC2BE = {
+			isa = PBXGroup;
+			children = (
+				33864A331C1B596200DAC2BE /* Stupid Project */,
+				33864A4D1C1B596200DAC2BE /* Stupid ProjectTests */,
+				33864A581C1B596200DAC2BE /* Stupid ProjectUITests */,
+				33864A321C1B596200DAC2BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33864A321C1B596200DAC2BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33864A311C1B596200DAC2BE /* Stupid Project.app */,
+				33864A4A1C1B596200DAC2BE /* Stupid ProjectTests.xctest */,
+				33864A551C1B596200DAC2BE /* Stupid ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33864A331C1B596200DAC2BE /* Stupid Project */ = {
+			isa = PBXGroup;
+			children = (
+				33864A371C1B596200DAC2BE /* AppDelegate.h */,
+				33864A381C1B596200DAC2BE /* AppDelegate.m */,
+				33864A3A1C1B596200DAC2BE /* ViewController.h */,
+				33864A3B1C1B596200DAC2BE /* ViewController.m */,
+				33864A3D1C1B596200DAC2BE /* Main.storyboard */,
+				33864A401C1B596200DAC2BE /* Assets.xcassets */,
+				33864A421C1B596200DAC2BE /* LaunchScreen.storyboard */,
+				33864A451C1B596200DAC2BE /* Info.plist */,
+				33864A341C1B596200DAC2BE /* Supporting Files */,
+			);
+			path = "Stupid Project";
+			sourceTree = "<group>";
+		};
+		33864A341C1B596200DAC2BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33864A351C1B596200DAC2BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33864A4D1C1B596200DAC2BE /* Stupid ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				33864A4E1C1B596200DAC2BE /* Stupid_ProjectTests.m */,
+				33864A501C1B596200DAC2BE /* Info.plist */,
+			);
+			path = "Stupid ProjectTests";
+			sourceTree = "<group>";
+		};
+		33864A581C1B596200DAC2BE /* Stupid ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33864A591C1B596200DAC2BE /* Stupid_ProjectUITests.m */,
+				33864A5B1C1B596200DAC2BE /* Info.plist */,
+			);
+			path = "Stupid ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33864A301C1B596200DAC2BE /* Stupid Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33864A5E1C1B596200DAC2BE /* Build configuration list for PBXNativeTarget "Stupid Project" */;
+			buildPhases = (
+				33864A2D1C1B596200DAC2BE /* Sources */,
+				33864A2E1C1B596200DAC2BE /* Frameworks */,
+				33864A2F1C1B596200DAC2BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stupid Project";
+			productName = "Stupid Project";
+			productReference = 33864A311C1B596200DAC2BE /* Stupid Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33864A491C1B596200DAC2BE /* Stupid ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33864A611C1B596200DAC2BE /* Build configuration list for PBXNativeTarget "Stupid ProjectTests" */;
+			buildPhases = (
+				33864A461C1B596200DAC2BE /* Sources */,
+				33864A471C1B596200DAC2BE /* Frameworks */,
+				33864A481C1B596200DAC2BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33864A4C1C1B596200DAC2BE /* PBXTargetDependency */,
+			);
+			name = "Stupid ProjectTests";
+			productName = "Stupid ProjectTests";
+			productReference = 33864A4A1C1B596200DAC2BE /* Stupid ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33864A541C1B596200DAC2BE /* Stupid ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33864A641C1B596200DAC2BE /* Build configuration list for PBXNativeTarget "Stupid ProjectUITests" */;
+			buildPhases = (
+				33864A511C1B596200DAC2BE /* Sources */,
+				33864A521C1B596200DAC2BE /* Frameworks */,
+				33864A531C1B596200DAC2BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33864A571C1B596200DAC2BE /* PBXTargetDependency */,
+			);
+			name = "Stupid ProjectUITests";
+			productName = "Stupid ProjectUITests";
+			productReference = 33864A551C1B596200DAC2BE /* Stupid ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33864A291C1B596200DAC2BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Thacker, Forrest";
+				TargetAttributes = {
+					33864A301C1B596200DAC2BE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					33864A491C1B596200DAC2BE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 33864A301C1B596200DAC2BE;
+					};
+					33864A541C1B596200DAC2BE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 33864A301C1B596200DAC2BE;
+					};
+				};
+			};
+			buildConfigurationList = 33864A2C1C1B596200DAC2BE /* Build configuration list for PBXProject "Stupid Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33864A281C1B596200DAC2BE;
+			productRefGroup = 33864A321C1B596200DAC2BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33864A301C1B596200DAC2BE /* Stupid Project */,
+				33864A491C1B596200DAC2BE /* Stupid ProjectTests */,
+				33864A541C1B596200DAC2BE /* Stupid ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33864A2F1C1B596200DAC2BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33864A441C1B596200DAC2BE /* LaunchScreen.storyboard in Resources */,
+				33864A411C1B596200DAC2BE /* Assets.xcassets in Resources */,
+				33864A3F1C1B596200DAC2BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33864A481C1B596200DAC2BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33864A531C1B596200DAC2BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33864A2D1C1B596200DAC2BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33864A3C1C1B596200DAC2BE /* ViewController.m in Sources */,
+				33864A391C1B596200DAC2BE /* AppDelegate.m in Sources */,
+				33864A361C1B596200DAC2BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33864A461C1B596200DAC2BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33864A4F1C1B596200DAC2BE /* Stupid_ProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33864A511C1B596200DAC2BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33864A5A1C1B596200DAC2BE /* Stupid_ProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33864A4C1C1B596200DAC2BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33864A301C1B596200DAC2BE /* Stupid Project */;
+			targetProxy = 33864A4B1C1B596200DAC2BE /* PBXContainerItemProxy */;
+		};
+		33864A571C1B596200DAC2BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33864A301C1B596200DAC2BE /* Stupid Project */;
+			targetProxy = 33864A561C1B596200DAC2BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33864A3D1C1B596200DAC2BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33864A3E1C1B596200DAC2BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33864A421C1B596200DAC2BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33864A431C1B596200DAC2BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33864A5C1C1B596200DAC2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33864A5D1C1B596200DAC2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33864A5F1C1B596200DAC2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stupid Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SUROS.Stupid-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33864A601C1B596200DAC2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stupid Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SUROS.Stupid-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33864A621C1B596200DAC2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Stupid ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SUROS.Stupid-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stupid Project.app/Stupid Project";
+			};
+			name = Debug;
+		};
+		33864A631C1B596200DAC2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Stupid ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SUROS.Stupid-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stupid Project.app/Stupid Project";
+			};
+			name = Release;
+		};
+		33864A651C1B596200DAC2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Stupid ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SUROS.Stupid-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Stupid Project";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		33864A661C1B596200DAC2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Stupid ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SUROS.Stupid-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Stupid Project";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33864A2C1C1B596200DAC2BE /* Build configuration list for PBXProject "Stupid Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33864A5C1C1B596200DAC2BE /* Debug */,
+				33864A5D1C1B596200DAC2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33864A5E1C1B596200DAC2BE /* Build configuration list for PBXNativeTarget "Stupid Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33864A5F1C1B596200DAC2BE /* Debug */,
+				33864A601C1B596200DAC2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33864A611C1B596200DAC2BE /* Build configuration list for PBXNativeTarget "Stupid ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33864A621C1B596200DAC2BE /* Debug */,
+				33864A631C1B596200DAC2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33864A641C1B596200DAC2BE /* Build configuration list for PBXNativeTarget "Stupid ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33864A651C1B596200DAC2BE /* Debug */,
+				33864A661C1B596200DAC2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33864A291C1B596200DAC2BE /* Project object */;
+}
