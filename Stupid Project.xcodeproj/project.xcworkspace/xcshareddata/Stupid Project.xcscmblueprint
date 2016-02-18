@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DC0266C68B28F7610914F442ABB362C69DFD7DD0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5F9ECC59827196513873AAE8C97A22C064258E6B" : 0,
+    "DC0266C68B28F7610914F442ABB362C69DFD7DD0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C89A9FD5-A50B-4CC8-8133-16EA15B3B628",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5F9ECC59827196513873AAE8C97A22C064258E6B" : "",
+    "DC0266C68B28F7610914F442ABB362C69DFD7DD0" : "Stupid%20Project\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Stupid Project",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Stupid Project.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ForrestThacker\/Intro-to-Shat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5F9ECC59827196513873AAE8C97A22C064258E6B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ForrestThacker\/Stupid-Project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DC0266C68B28F7610914F442ABB362C69DFD7DD0"
+    }
+  ]
+}
